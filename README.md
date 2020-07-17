@@ -1,2 +1,2 @@
 # bincastle-devenv
-The bincastle system I use for developing bincastle (neowoah.gif)
+The system I use for developing [bincastle](https://github.com/sipsma/bincastle) in bincastle (neowoah.gif).
