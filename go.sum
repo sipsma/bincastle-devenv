@@ -22,9 +22,10 @@ github.com/containerd/cgroups v0.0.0-20200327175542-b44481373989 h1:ziD9Q8QdO0vy
 github.com/containerd/cgroups v0.0.0-20200327175542-b44481373989/go.mod h1:CStdkl05lBnJej94BPFoJ7vB8cELKXwViS+dgfW0/M8=
 github.com/containerd/console v0.0.0-20180822173158-c12b1e7919c1/go.mod h1:Tj/on1eG8kiEhd0+fhSDzsPAFESxzBBvdyEgyryXffw=
 github.com/containerd/console v0.0.0-20191206165004-02ecf6a7291e/go.mod h1:8Pf4gM6VEbTNRIT26AyyU7hxdQU3MvAvxVI0sc00XBE=
+github.com/containerd/console v1.0.0 h1:fU3UuQapBs+zLJu82NhR11Rif1ny2zfMMAyPJzSN5tQ=
 github.com/containerd/console v1.0.0/go.mod h1:8Pf4gM6VEbTNRIT26AyyU7hxdQU3MvAvxVI0sc00XBE=
-github.com/containerd/containerd v1.3.1-0.20200227195959-4d242818bf55 h1:FGO0nwSBESgoGCakj+w3OQXyrMLsz2omdo9b2UfG/BQ=
-github.com/containerd/containerd v1.3.1-0.20200227195959-4d242818bf55/go.mod h1:bC6axHOhabU15QhwfG7w5PipXdVtMXFTttgp+kVtyUA=
+github.com/containerd/containerd v1.3.1-0.20200512144102-f13ba8f2f2fd h1:dS7mlMQ+4sSfnBguO927U9bYBi3N3wTyzNKlg4NpakQ=
+github.com/containerd/containerd v1.3.1-0.20200512144102-f13ba8f2f2fd/go.mod h1:bC6axHOhabU15QhwfG7w5PipXdVtMXFTttgp+kVtyUA=
 github.com/containerd/continuity v0.0.0-20190426062206-aaeac12a7ffc/go.mod h1:GL3xCUCBDV3CZiTSEKksMWbLE66hEyuu9qyDOOqM47Y=
 github.com/containerd/continuity v0.0.0-20200228182428-0f16d7a0959c/go.mod h1:Dq467ZllaHgAtVp4p1xUQWBrFXR9s/wyoTpG8zOJGkY=
 github.com/containerd/continuity v0.0.0-20200413184840-d3ef23f19fbb h1:nXPkFq8X1a9ycY3GYQpFNxHh3j2JgY7zDZfq2EXMIzk=
@@ -34,6 +35,7 @@ github.com/containerd/fifo v0.0.0-20200410184934-f15a3290365b h1:qUtCegLdOUVfVJO
 github.com/containerd/fifo v0.0.0-20200410184934-f15a3290365b/go.mod h1:jPQ2IAeZRCYxpS/Cm1495vGFww6ecHmMk1YJH2Q5ln0=
 github.com/containerd/go-cni v0.0.0-20200107172653-c154a49e2c75/go.mod h1:0mg8r6FCdbxvLDqCXwAx2rO+KA37QICjKL8+wHOG5OE=
 github.com/containerd/go-runc v0.0.0-20180907222934-5a6d9f37cfa3/go.mod h1:IV7qH3hrUgRmyYrtgEeGWJfWbgcHL9CSRruz2Vqcph0=
+github.com/containerd/go-runc v0.0.0-20200220073739-7016d3ce2328 h1:PRTagVMbJcCezLcHXe8UJvR1oBzp2lG3CEumeFOLOds=
 github.com/containerd/go-runc v0.0.0-20200220073739-7016d3ce2328/go.mod h1:PpyHrqVs8FTi9vpyHwPwiNEGaACDxT/N/pLcvMSRA9g=
 github.com/containerd/ttrpc v0.0.0-20190828154514-0e0f228740de/go.mod h1:PvCDdDGpgqzQIzDW1TphrGLssLDZp2GuS+X5DkEJB8o=
 github.com/containerd/ttrpc v1.0.1 h1:IfVOxKbjyBn9maoye2JN95pgGYOmPkQVqxtOu7rtNIc=
@@ -195,8 +197,8 @@ github.com/serialx/hashring v0.0.0-20190422032157-8b2912629002/go.mod h1:/yeG0My
 github.com/shurcooL/sanitized_anchor_name v1.0.0/go.mod h1:1NzhyTcUVG4SuEtjjoZeVRXNmyL/1OwPU0+IJeTBvfc=
 github.com/sipsma/bincastle v0.0.0-20200717182751-a5051970c7c2 h1:OaGHIQozMFeqOqH/zTaKo03BE58CLUOIoRMLhDTu4wU=
 github.com/sipsma/bincastle v0.0.0-20200717182751-a5051970c7c2/go.mod h1:zTqBGclPaIVGGFhwAkcHUtOwsIaQkm8pK9PiMI91xAk=
-github.com/sipsma/bincastle-distro v0.0.0-20200717192755-9a9437ae563b h1:m8IQAym0/GaCMyAFx5ujpIT8lquMxikm2bEylNooq8E=
-github.com/sipsma/bincastle-distro v0.0.0-20200717192755-9a9437ae563b/go.mod h1:ns7HnY655ym8pt/Gb2XGSSJ7Ue4jsnWKU8y8waXVCKM=
+github.com/sipsma/bincastle-distro v0.0.0-20200717200940-04970ec04316 h1:zRTTIlwgvk1+6h/xhp6OnLeaBIWih3xRRmzufBM/xSU=
+github.com/sipsma/bincastle-distro v0.0.0-20200717200940-04970ec04316/go.mod h1:xexwUPBYMoPoXC1ov5MvxzLss2EXMWQMEKjruVHd5Mc=
 github.com/sirupsen/logrus v1.0.4-0.20170822132746-89742aefa4b2/go.mod h1:pMByvHTf9Beacp5x1UXfOR9xyW/9antXMhjMPG0dEzc=
 github.com/sirupsen/logrus v1.4.1/go.mod h1:ni0Sbl8bgC9z8RoU9G6nDWqqs/fq4eDPysMBDgk/93Q=
 github.com/sirupsen/logrus v1.4.2 h1:SPIRibHv4MatM3XXNO2BJeFLZwZ2LvZgfQ5+UNI2im4=
