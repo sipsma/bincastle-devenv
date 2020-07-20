@@ -201,6 +201,8 @@ github.com/sipsma/bincastle v0.0.0-20200717211731-9725ad095673 h1:u97ELwurCpaaTH
 github.com/sipsma/bincastle v0.0.0-20200717211731-9725ad095673/go.mod h1:1HmSyiXBABvXrmsziOUybfIAjEeBIQ+Ke+Tpm1VCouU=
 github.com/sipsma/bincastle-distro v0.0.0-20200717202320-bf25c64f217b h1:pICJU+OwgH1Ghn3Cn49TEcP3XvBXceYHdY5MF7ky5Cw=
 github.com/sipsma/bincastle-distro v0.0.0-20200717202320-bf25c64f217b/go.mod h1:xexwUPBYMoPoXC1ov5MvxzLss2EXMWQMEKjruVHd5Mc=
+github.com/sipsma/bincastle-distro v0.0.0-20200720005411-7f80e786b36b h1:Njex3+IFfVpy9YR/s7ulFIRphJ+wTkDVnSgBtRkshv8=
+github.com/sipsma/bincastle-distro v0.0.0-20200720005411-7f80e786b36b/go.mod h1:xexwUPBYMoPoXC1ov5MvxzLss2EXMWQMEKjruVHd5Mc=
 github.com/sirupsen/logrus v1.0.4-0.20170822132746-89742aefa4b2/go.mod h1:pMByvHTf9Beacp5x1UXfOR9xyW/9antXMhjMPG0dEzc=
 github.com/sirupsen/logrus v1.4.1/go.mod h1:ni0Sbl8bgC9z8RoU9G6nDWqqs/fq4eDPysMBDgk/93Q=
 github.com/sirupsen/logrus v1.4.2 h1:SPIRibHv4MatM3XXNO2BJeFLZwZ2LvZgfQ5+UNI2im4=

@@ -63,6 +63,7 @@ func main() {
 			distro.Golang{},
 			distro.Perl5{},
 			distro.Python3{},
+			distro.NodeJS{},
 
 			// user
 			LayerSpec(
