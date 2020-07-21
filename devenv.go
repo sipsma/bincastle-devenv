@@ -82,6 +82,11 @@ func main() {
 					Name: "bincastle-src",
 				}, MountDir("/home/sipsma/.repo/github.com/sipsma/bincastle"))),
 				Dep(Wrap(src.ViaGit{
+					URL:  "https://github.com/sipsma/buildkit.git",
+					Ref:  "master",
+					Name: "sipsma-buildkit-src",
+				}, MountDir("/home/sipsma/.repo/github.com/sipsma/buildkit"))),
+				Dep(Wrap(src.ViaGit{
 					URL:  "https://github.com/syl20bnr/spacemacs.git",
 					Ref:  "develop",
 					Name: "spacemacs-src",
@@ -108,6 +113,7 @@ func main() {
 					`mkdir -p /home/sipsma/.ssh`,
 					`ssh-keyscan github.com >> /home/sipsma/.ssh/known_hosts`,
 					`git clone -b spacemacs git@github.com:sipsma/home.git /home/sipsma/.spacemacs.d`,
+					`git clone git@github.com:sipsma/sipsma.dev.git /home/sipsma/.repo/github.com/sipsma/sipsma.dev`,
 
 					// TODO this should be its own package
 					`echo 'HISTCONTROL=ignoreboth' >> /home/sipsma/.profile`,
