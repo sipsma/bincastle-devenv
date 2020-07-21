@@ -1,8 +1,6 @@
 package main
 
 import (
-	"strings"
-
 	distro "github.com/sipsma/bincastle-distro"
 	"github.com/sipsma/bincastle-distro/src"
 	"github.com/sipsma/bincastle/cmd"
@@ -108,6 +106,8 @@ func main() {
 					`mkdir -p /home/sipsma/.ssh`,
 					`ssh-keyscan github.com >> /home/sipsma/.ssh/known_hosts`,
 					`git clone -b spacemacs git@github.com:sipsma/home.git /home/sipsma/.spacemacs.d`,
+					`git clone git@github.com:sipsma/sipsma.dev.git /home/sipsma/.repo/github.com/sipsma/sipsma.dev`,
+					`git clone git@github.com:sipsma/buildkit.git /home/sipsma/.repo/github.com/sipsma/buildkit`,
 
 					// TODO this should be its own package
 					`echo 'HISTCONTROL=ignoreboth' >> /home/sipsma/.profile`,
@@ -141,6 +141,7 @@ func main() {
 				),
 			),
 		),
+		/* TODO
 		Env("TERM", "xterm-24bit"),
 		Env("LANG", "en_US.UTF-8"),
 		Env("SSH_AUTH_SOCK", "/run/ssh-agent.sock"),
@@ -156,5 +157,6 @@ func main() {
 			"/home/sipsma/go/bin",
 		}, ":")),
 		Args("/bin/bash", "-l"),
+		*/
 	)
 }
