@@ -160,6 +160,7 @@ func main() {
 			"/usr/local/sbin",
 			"/usr/lib/go/bin",
 			"/home/sipsma/go/bin",
+			"/home/sipsma/.local/bin",
 		}, ":")),
 		Args("/bin/bash", "-l"),
 	)
