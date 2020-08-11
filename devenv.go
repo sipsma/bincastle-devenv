@@ -110,19 +110,6 @@ func main() {
 					`git clone git@github.com:sipsma/buildkit.git /home/sipsma/.repo/github.com/sipsma/buildkit`,
 
 					// TODO this should be its own package
-					`echo 'HISTCONTROL=ignoreboth' >> /home/sipsma/.profile`,
-					`echo 'shopt -s histappend' >> /home/sipsma/.profile`,
-					`echo 'HISTSIZE=1000' >> /home/sipsma/.profile`,
-					`echo 'HISTFILESIZE=2000' >> /home/sipsma/.profile`,
-					`echo 'shopt -s checkwinsize' >> /home/sipsma/.profile`,
-					`echo 'set -o vi' >> /home/sipsma/.profile`,
-
-					// TODO this should be its own package
-					`echo 'set -g default-terminal "xterm-24bit"' >> /home/sipsma/.tmux.conf`,
-					`echo 'set -g terminal-overrides ",xterm-24bit:Tc"' >> /home/sipsma/.tmux.conf`,
-					`echo 'set -s escape-time 0' >> /home/sipsma/.tmux.conf`,
-
-					// TODO this should be its own package
 					`echo 'xterm-24bit|xterm with 24-bit direct color mode,' > terminfo`,
 					`echo '   use=xterm-256color,' >> terminfo`,
 					`echo '   sitm=\E[3m,' >> terminfo`,
@@ -133,6 +120,24 @@ func main() {
 					`tic -x -o /home/sipsma/.terminfo terminfo`,
 
 					// TODO this should be its own package
+					`echo 'if [ -f "$HOME/.bashrc" ]; then . "$HOME/.bashrc"; fi' >> /home/sipsma/.profile`,
+					`echo 'HISTCONTROL=ignoreboth' >> /home/sipsma/.bashrc`,
+					`echo 'shopt -s histappend' >> /home/sipsma/.bashrc`,
+					`echo 'HISTSIZE=1000' >> /home/sipsma/.bashrc`,
+					`echo 'HISTFILESIZE=2000' >> /home/sipsma/.bashrc`,
+					`echo 'shopt -s checkwinsize' >> /home/sipsma/.bashrc`,
+					`echo 'set -o vi' >> /home/sipsma/.bashrc`,
+					`echo 'export TERM=xterm-24bit' >> /home/sipsma/.bashrc`,
+					`echo 'export LANG=en_US.UTF-8' >> /home/sipsma/.bashrc`,
+					`echo 'export GO111MODULE=on' >> /home/sipsma/.bashrc`,
+					`echo 'export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/usr/lib/go/bin:/home/sipsma/go/bin' >> /home/sipsma/.bashrc`,
+
+					// TODO this should be its own package
+					`echo 'set -g default-terminal "xterm-24bit"' >> /home/sipsma/.tmux.conf`,
+					`echo 'set -g terminal-overrides ",xterm-24bit:Tc"' >> /home/sipsma/.tmux.conf`,
+					`echo 'set -s escape-time 0' >> /home/sipsma/.tmux.conf`,
+
+					// TODO this should be its own package
 					`export GO111MODULE=on`,
 					`go get golang.org/x/tools/gopls@latest`,
 
@@ -141,22 +146,5 @@ func main() {
 				),
 			),
 		),
-		/* TODO
-		Env("TERM", "xterm-24bit"),
-		Env("LANG", "en_US.UTF-8"),
-		Env("SSH_AUTH_SOCK", "/run/ssh-agent.sock"),
-		Env("GO111MODULE", "on"),
-		Env("PATH", strings.Join([]string{
-			"/bin",
-			"/sbin",
-			"/usr/bin",
-			"/usr/sbin",
-			"/usr/local/bin",
-			"/usr/local/sbin",
-			"/usr/lib/go/bin",
-			"/home/sipsma/go/bin",
-		}, ":")),
-		Args("/bin/bash", "-l"),
-		*/
 	)
 }
