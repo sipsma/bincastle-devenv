@@ -127,6 +127,7 @@ func main() {
 					`echo 'HISTFILESIZE=2000' >> /home/sipsma/.bashrc`,
 					`echo 'shopt -s checkwinsize' >> /home/sipsma/.bashrc`,
 					`echo 'set -o vi' >> /home/sipsma/.bashrc`,
+					`echo 'set +o posix' >> /home/sipsma/.bashrc`,
 					`echo 'export TERM=xterm-24bit' >> /home/sipsma/.bashrc`,
 					`echo 'export LANG=en_US.UTF-8' >> /home/sipsma/.bashrc`,
 					`echo 'export GO111MODULE=on' >> /home/sipsma/.bashrc`,
