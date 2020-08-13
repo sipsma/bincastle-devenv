@@ -20,6 +20,6 @@ replace github.com/containerd/containerd => github.com/containerd/containerd v1.
 replace github.com/docker/docker => github.com/docker/docker v1.4.2-0.20200227233006-38f52c9fec82
 
 require (
-	github.com/sipsma/bincastle v0.0.0-20200717211731-9725ad095673
-	github.com/sipsma/bincastle-distro v0.0.0-20200720005411-7f80e786b36b
+	github.com/sipsma/bincastle v0.0.0-20200812225155-598001f1d472
+	github.com/sipsma/bincastle-distro v0.0.0-20200810173308-96a985ef0a81
 )
