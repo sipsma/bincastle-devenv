@@ -19,7 +19,11 @@ replace github.com/containerd/containerd => github.com/containerd/containerd v1.
 
 replace github.com/docker/docker => github.com/docker/docker v1.4.2-0.20200227233006-38f52c9fec82
 
+replace github.com/checkpoint-restore/go-criu => github.com/checkpoint-restore/go-criu v0.0.0-20181120144056-17b0214f6c48
+
+replace github.com/sipsma/bincastle => ../bincastle
+
 require (
-	github.com/sipsma/bincastle v0.0.0-20200812225155-598001f1d472
-	github.com/sipsma/bincastle-distro v0.0.0-20200810173308-96a985ef0a81
+	github.com/sipsma/bincastle v0.0.0-20200822011418-fdb5385be4f7
+	github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae // indirect
 )
