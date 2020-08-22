@@ -1,8 +1,6 @@
 package main
 
 import (
-	"strings"
-
 	distro "github.com/sipsma/bincastle-distro"
 	"github.com/sipsma/bincastle-distro/src"
 	"github.com/sipsma/bincastle/cmd"
@@ -92,15 +90,14 @@ func main() {
 					Name: "spacemacs-src",
 				}, MountDir("/home/sipsma/.emacs.d"))),
 				BuildDep(distro.Coreutils{}),
-				BuildDep(distro.Bash{}),
-				BuildDep(distro.OpenSSH{}),
 				BuildDep(distro.Git{}),
 				BuildDep(distro.Golang{}),
 				BuildDep(distro.Ncurses{}),
+
 				distro.BuildOpts(),
-				ScratchMount(`/build`),
+				BuildScratch(`/build`),
 				Env("SSH_AUTH_SOCK", "/run/ssh-agent.sock"), // TODO this should be a helper, WithSSHSock
-				Shell(
+				BuildScript(
 					`mkdir -p /home/sipsma`,
 					`cd /build`,
 
@@ -145,23 +142,8 @@ func main() {
 					`git config --global user.name "Erik Sipsma"`,
 					`git config --global user.email "erik@sipsma.dev"`,
 				),
+				RunArgs("/bin/bash", "-l"),
 			),
 		),
-		Env("TERM", "xterm-24bit"),
-		Env("LANG", "en_US.UTF-8"),
-		Env("SSH_AUTH_SOCK", "/run/ssh-agent.sock"),
-		Env("GO111MODULE", "on"),
-		Env("PATH", strings.Join([]string{
-			"/bin",
-			"/sbin",
-			"/usr/bin",
-			"/usr/sbin",
-			"/usr/local/bin",
-			"/usr/local/sbin",
-			"/usr/lib/go/bin",
-			"/home/sipsma/go/bin",
-			"/home/sipsma/.local/bin",
-		}, ":")),
-		Args("/bin/bash", "-l"),
 	)
 }
