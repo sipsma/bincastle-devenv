@@ -112,6 +112,7 @@ github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5a
 github.com/google/go-cmp v0.3.0/go.mod h1:8QqcDgzrUqlUb/G2PQTWiueGozuR1884gddMywk6iLU=
 github.com/google/go-cmp v0.4.0 h1:xsAVV57WRhGj6kEIi8ReJzQlHHqcBYCElAvkovg3B/4=
 github.com/google/go-cmp v0.4.0/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
+github.com/google/shlex v0.0.0-20150127133951-6f45313302b9 h1:JM174NTeGNJ2m/oLH3UOWOvWQQKd+BoL3hcSCUWFLt0=
 github.com/google/shlex v0.0.0-20150127133951-6f45313302b9/go.mod h1:RpwtwJQFrIEPstU94h88MWPXP2ektJZ8cZ0YntAmXiE=
 github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 h1:El6M4kTTCOh6aBiKaUGG7oYTSPP8MxqL4YI3kZKwcP4=
 github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510/go.mod h1:pupxD2MaaD3pAXIBCelhxNneeOaAeabZDe5s4K6zSpQ=
@@ -126,6 +127,7 @@ github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645 h1
 github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645/go.mod h1:6iZfnjpejD4L/4DwD7NryNaJyCQdzwWwH2MWhCA90Kw=
 github.com/hashicorp/errwrap v1.0.0/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brvKWEqk/Jc4=
 github.com/hashicorp/go-multierror v1.0.0/go.mod h1:dHtQlpGsu+cZNNAkkCN/P3hoUDHhCYQXV3UM06sGGrk=
+github.com/hashicorp/golang-lru v0.5.1 h1:0hERBMJE1eitiLkihrMvRVBYAkpHzc/J3QdDN+dAcgU=
 github.com/hashicorp/golang-lru v0.5.1/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hashicorp/golang-lru v0.5.4 h1:YDjusn29QI/Das2iO9M0BHnIbxPeyuCHsjMW+lJfyTc=
 github.com/hashicorp/golang-lru v0.5.4/go.mod h1:iADmTwqILo4mZ8BN3D2Q6+9jd8WM5uGBxy+E8yxSoD4=
@@ -211,11 +213,15 @@ github.com/sipsma/bincastle v0.0.0-20200723200739-c7a39e934dd1/go.mod h1:DW4OeZa
 github.com/sipsma/bincastle v0.0.0-20200819025418-bff74d72164b/go.mod h1:fjbsLrDdxDs88z68YnSaoGtECHhfV/T9ZNaif+rBy6o=
 github.com/sipsma/bincastle v0.0.0-20200822011418-fdb5385be4f7 h1:vfeVvZ30xdQptg9ZUW6K/xYWJNmvLar8nw2N+fVDDwE=
 github.com/sipsma/bincastle v0.0.0-20200822011418-fdb5385be4f7/go.mod h1:m20QEy2fTZukpeYLfCdFwEqA2loz0b3jdgsV9VJdyDU=
+github.com/sipsma/bincastle v0.0.0-20200826011914-f8e7cb0107d6 h1:BPNc/YaeNOMDaO6bwhuEzV5imbNM8ByBV6SQ8OWY2Os=
+github.com/sipsma/bincastle v0.0.0-20200826011914-f8e7cb0107d6/go.mod h1:fRJFJ1hSejsla2oClwS7a+pU6fpXqaCFtBZpelboVyY=
 github.com/sipsma/bincastle-distro v0.0.0-20200720005411-7f80e786b36b/go.mod h1:xexwUPBYMoPoXC1ov5MvxzLss2EXMWQMEKjruVHd5Mc=
 github.com/sipsma/bincastle-distro v0.0.0-20200810173308-96a985ef0a81/go.mod h1:CRqP93+LSPiXwmESdQnGOMUERQLAbA1XhqpASgfhS5U=
 github.com/sipsma/bincastle-distro v0.0.0-20200819030215-b93a316f3bc4/go.mod h1:9pJqXv4aT8L5EWkLCAIFm7/OgUNPykGyRzzEFHBy1uE=
 github.com/sipsma/bincastle-distro v0.0.0-20200822012639-f20e1658b141 h1:BOXRJRMSXE0/ScAqe7HWb6QHbPcnV7pOZe5rwTiULIg=
 github.com/sipsma/bincastle-distro v0.0.0-20200822012639-f20e1658b141/go.mod h1:swLGORDaJF0yZW4Seoo7qzvzn9sGqE7E5CGnbTKpxUw=
+github.com/sipsma/bincastle-distro v0.0.0-20200826012932-ed6ef05eba98 h1:W/lHDKmomQ4xQ3f2ljGEMVr0CYLLDN3u2n0YR6UuSI0=
+github.com/sipsma/bincastle-distro v0.0.0-20200826012932-ed6ef05eba98/go.mod h1:7sJK6MY0Rp5iNHgZ3EU4pmzuOSx14SQURHAuxjoLfAg=
 github.com/sirupsen/logrus v1.0.4-0.20170822132746-89742aefa4b2/go.mod h1:pMByvHTf9Beacp5x1UXfOR9xyW/9antXMhjMPG0dEzc=
 github.com/sirupsen/logrus v1.4.1/go.mod h1:ni0Sbl8bgC9z8RoU9G6nDWqqs/fq4eDPysMBDgk/93Q=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=
@@ -283,6 +289,7 @@ golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:t9HGtf8HONx5eT2rtn
 golang.org/x/net v0.0.0-20190501004415-9ce7a6920f09/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
 golang.org/x/net v0.0.0-20190620200207-3b0461eec859/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/net v0.0.0-20191004110552-13f9640d40b9/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
+golang.org/x/net v0.0.0-20200226121028-0de0cce0169b h1:0mm1VjtFUOIlE1SbDlwjYaDxZVDP2S5ou6y0gSgXHu8=
 golang.org/x/net v0.0.0-20200226121028-0de0cce0169b/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/net v0.0.0-20200320220750-118fecf932d8 h1:1+zQlQqEEhUeStBTi653GZAnAuivZq/2hz+Iz+OP7rg=
 golang.org/x/net v0.0.0-20200320220750-118fecf932d8/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
@@ -340,6 +347,7 @@ google.golang.org/genproto v0.0.0-20190425155659-357c62f0e4bb/go.mod h1:VzzqZJRn
 google.golang.org/genproto v0.0.0-20190502173448-54afdca5d873/go.mod h1:VzzqZJRnGkLBvHegQrXjBqPurQTc5/KpmUdxsrq26oE=
 google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55/go.mod h1:DMBHOl98Agz4BDEuKkezgsaosCRResVns1a3J2ZsMNc=
 google.golang.org/genproto v0.0.0-20200117163144-32f20d992d24/go.mod h1:n3cpQtvxv34hfy77yVDNjmbRyujviMdxYliBSkLhpCc=
+google.golang.org/genproto v0.0.0-20200227132054-3f1135a288c9 h1:Koy0f8zyrEVfIHetH7wjP5mQLUXiqDpubSg8V1fAxqc=
 google.golang.org/genproto v0.0.0-20200227132054-3f1135a288c9/go.mod h1:55QSHmfGQM9UVYDPBsyGGes0y52j32PQ3BqQfXhyH3c=
 google.golang.org/genproto v0.0.0-20200319113533-08878b785e9c h1:5aI3/f/3eCZps9xwoEnmgfDJDhMbnJpfqeGpjVNgVEI=
 google.golang.org/genproto v0.0.0-20200319113533-08878b785e9c/go.mod h1:55QSHmfGQM9UVYDPBsyGGes0y52j32PQ3BqQfXhyH3c=

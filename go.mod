@@ -22,7 +22,7 @@ replace github.com/docker/docker => github.com/docker/docker v1.4.2-0.2020022723
 replace github.com/checkpoint-restore/go-criu => github.com/checkpoint-restore/go-criu v0.0.0-20181120144056-17b0214f6c48
 
 require (
-	github.com/sipsma/bincastle v0.0.0-20200822011418-fdb5385be4f7
-	github.com/sipsma/bincastle-distro v0.0.0-20200822012639-f20e1658b141
+	github.com/sipsma/bincastle v0.0.0-20200826011914-f8e7cb0107d6
+	github.com/sipsma/bincastle-distro v0.0.0-20200826012932-ed6ef05eba98
 	github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae // indirect
 )
